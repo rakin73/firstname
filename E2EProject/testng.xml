@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+  <listener class-name="Step.listeners"/>
+  <listener class-name="Properites.ExtentReportNG"/>
+</listeners>
+
+  <test name="Tests">
+    <classes>
+      <class name="Step.Homepage"/>
+      </classes> 
+   </test>
+  
+
+<test name="Test">
+   <classes> 
+ <class name="Step.validation"/>
+  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
